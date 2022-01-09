@@ -6,15 +6,32 @@ function Footer() {
         backgroundColor: "teal",
         padding: "10px",
         fontFamily: "Arial",
-      };
+    };
 
-  return (
-    <div style={footerStyle}>
-      <h2>
-        Thanks for visiting!
-      </h2>
-    </div>
-  );
+    return (
+        <div style={footerStyle}>
+            <h2>
+                Thanks for visiting!
+            </h2>
+            <ul className="flex-row">
+                <li>
+                    <a href="tel: 216-870-3756">216-870-3756</a>
+                </li>
+                <li>
+                    <a href="mailto: pvaltemare@gmail.com">pvaltemare@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://github.com/pvalte">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/paige-altemare/">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://stackoverflow.com/users/16346695/pvalte">Stack Overflow</a>
+                </li>
+            </ul>
+        </div>
+    );
 }
 
 export default Footer;

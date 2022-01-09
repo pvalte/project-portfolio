@@ -13,17 +13,25 @@ function Navigation(props) {
     return (
         <div style={navStyle}>
             <ul className="flex-row">
-                <li className="mx-2">
-                    <a href="#about">About Me</a>
+                <li>
+                    <a href="#about" onClick={() => {
+                  setCurrentContent(content[0]);
+                }}>About Me</a>
                 </li>
                 <li>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio" onClick={() => {
+                  setCurrentContent(content[1]);
+                }}>Portfolio</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact" onClick={() => {
+                  setCurrentContent(content[2]);
+                }}>Contact</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="#resume" onClick={() => {
+                  setCurrentContent(content[3]);
+                }}>Resume</a>
                 </li>
             </ul>
         </div>
