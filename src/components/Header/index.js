@@ -1,13 +1,29 @@
 import React from 'react';
 import Navigation from '../Navigation';
 
-function Header() {
+function Header(props) {
+  const headerStyle = {
+    color: "white",
+    backgroundColor: "blue",
+    padding: "10px",
+    fontFamily: "Arial",
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    alignItems: "center"
+  };
+
   return (
-    <div>
+    <div style={headerStyle}>
       <h2>
-        <a href="/">Paige Altemare</a>
+        <a style={{fontSize: "30px"}} href="/">Paige Altemare</a>
       </h2>
-      <Navigation></Navigation>
+      <Navigation 
+        className="space-between"
+        content={props.content}
+        setCurrentContent={props.setCurrentContent}
+        currentContent={props.currentContent}
+        ></Navigation>
     </div>
   );
 }

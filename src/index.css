@@ -25,3 +25,71 @@ a:hover {
 li {
   list-style: none;
 }
+
+:root {
+  --primary-color: rgb(253, 108, 225);
+  --secondary-color: rgb(64, 47, 234);
+  --tertiary-color: rgb(174, 235, 254);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--secondary-color);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header Start */
+
+Header {
+  padding: 20px 35px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+Header h1 a {
+  font-size: 40px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+Header nav {
+  padding: 10px 0;
+}
+
+Header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+Header nav ul li a {
+  margin: 10px 15px;
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 20px;
+  border-bottom: 3px solid var(--tertiary-color);
+}
+
+/* Header End */
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
