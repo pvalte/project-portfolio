@@ -2,13 +2,13 @@ import React from 'react';
 
 function Resume() {
     return (
-        <section>
+        <section className='resume'>
             <h1 id="resume">Resume</h1>
             <div>
                 <a href={require("../../assets/Paige Altemare - Resume.pdf")} target="blank">
-                    Resume    
+                    Download My Resume    
                 </a>
-                <h3>Front-End Proficiencies</h3>
+                <h3>Front-End Proficiencies:</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -18,7 +18,7 @@ function Resume() {
                     <li>Responsive design</li>
                     <li>React</li>
                 </ul>
-                <h3>Back-End Proficiencies</h3>
+                <h3>Back-End Proficiencies:</h3>
                 <ul>
                     <li>APIs</li>
                     <li>Node</li>

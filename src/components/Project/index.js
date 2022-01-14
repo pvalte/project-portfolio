@@ -1,23 +1,20 @@
 import React from 'react';
 
-function Project() {
+function Project({ project }) {    
+    const imageStyle={  
+        backgroundImage: `url(${project.image})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
+    };
+    
     return (
-        <div>
-            <h3>
-                Project 1
-            </h3>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-                    condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-                    mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-                    Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-                    justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-                    dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-                    Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-                </p>
+        <a class="tile" href={project.link} style={imageStyle}>
+            <div class="tile-titles">
+                <h4>{project.name}</h4>
+                <h5>{project.description}</h5>
             </div>
-        </div>
+        </a>
     );
 }
 

@@ -3,14 +3,14 @@ import React from 'react';
 function Footer() {
     const footerStyle = {
         color: "white",
-        backgroundColor: "teal",
+        backgroundColor: "rgb(56, 109, 126)",
         padding: "10px",
-        fontFamily: "Arial",
+        margin: "20px 0 0 0"
     };
 
     return (
         <div style={footerStyle}>
-            <h2>
+            <h2 style={{padding: "0 10px"}}>
                 Thanks for visiting!
             </h2>
             <ul className="flex-row">

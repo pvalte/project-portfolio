@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 function Header(props) {
   const headerStyle = {
     color: "white",
-    backgroundColor: "blue",
+    backgroundColor: "rgb(43, 32, 161)",
     padding: "10px",
     fontFamily: "Arial",
     display: "flex",

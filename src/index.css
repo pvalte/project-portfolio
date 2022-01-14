@@ -1,34 +1,6 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-li {
-  list-style: none;
-}
-
 :root {
-  --primary-color: rgb(253, 108, 225);
-  --secondary-color: rgb(64, 47, 234);
+  --primary-color: rgb(56, 109, 126);
+  --secondary-color: rgb(43, 32, 161);
   --tertiary-color: rgb(174, 235, 254);
 }
 
@@ -38,48 +10,33 @@ li {
   box-sizing: border-box;
 }
 
+
 body {
   color: var(--secondary-color);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Header Start */
-
-Header {
-  padding: 20px 35px;
-  background-color: var(--primary-color);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 10px;
 }
 
-Header h1 a {
-  font-size: 40px;
-  color: var(--secondary-color);
+
+a {
+  color: var(--tertiary);
   text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
 }
 
-Header nav {
-  padding: 10px 0;
+a:hover {
+  text-decoration: underline;
 }
 
-Header nav ul {
+li {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
 }
-
-Header nav ul li a {
-  margin: 10px 15px;
-  text-decoration: none;
-  color: var(--tertiary-color);
-  font-size: 20px;
-  border-bottom: 3px solid var(--tertiary-color);
-}
-
-/* Header End */
 
 .flex-row {
   display: flex;
@@ -92,4 +49,80 @@ Header nav ul li a {
 
 .flex-end {
   justify-content: flex-end;
+}
+
+.navActive {
+  color: green;
+}
+
+.work {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.work-tiles {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 10px 0 20px 0;
+}
+
+.tile {
+  margin: 10px;
+  border: 4px solid var(--secondary-color);
+  border-radius: 8px;
+  width: 47%;
+  background-size: cover;
+  border-radius: 8px;
+  height: 150px;
+}
+
+.tile-titles {
+  margin-top: 30px;
+  width: 30%;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+}
+
+.work-tiles a {
+  text-decoration: none;
+}
+
+.tile:hover {
+  opacity:0.5;
+}
+
+form {
+  width: 40%;
+  background-color: var(--tertiary-color);
+  padding: 20px;
+  margin: 10px;
+}
+
+input {
+  border: 1px solid var(--primary-color);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary-color);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.resume h3 {
+  padding: 10px 0 5px 10px;
+}
+
+.resume a {
+  padding: 10px 0 5px 10px;
+  color: var(--primary-color);
+}
+
+.resume li {
+  padding: 0 20px;
 }

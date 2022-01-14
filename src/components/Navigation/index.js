@@ -14,22 +14,22 @@ function Navigation(props) {
         <div style={navStyle}>
             <ul className="flex-row">
                 <li>
-                    <a href="#about" onClick={() => {
+                    <a onClick={() => {
                   setCurrentContent(content[0]);
                 }}>About Me</a>
                 </li>
                 <li>
-                    <a href="#portfolio" onClick={() => {
+                    <a onClick={() => {
                   setCurrentContent(content[1]);
                 }}>Portfolio</a>
                 </li>
                 <li>
-                    <a href="#contact" onClick={() => {
+                    <a onClick={() => {
                   setCurrentContent(content[2]);
                 }}>Contact</a>
                 </li>
                 <li>
-                    <a href="#resume" onClick={() => {
+                    <a onClick={() => {
                   setCurrentContent(content[3]);
                 }}>Resume</a>
                 </li>

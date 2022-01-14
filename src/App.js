@@ -27,7 +27,7 @@ function App() {
       <section>
         {currentContent}
       </section>
-      <Footer></Footer>
+      <Footer className="flex-row"></Footer>
     </div>
   );
 }
