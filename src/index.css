@@ -38,6 +38,10 @@ li {
   list-style: none;
 }
 
+.navActive {
+  color: var(--tertiary-color);
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -65,7 +69,6 @@ li {
   margin: 10px;
   border: 4px solid var(--secondary-color);
   border-radius: 8px;
-  width: 47%;
   background-size: cover;
   border-radius: 8px;
   height: 150px;
@@ -88,7 +91,6 @@ li {
 }
 
 form {
-  width: 30%;
   background-color: var(--tertiary-color);
   padding: 20px;
   margin: 10px;
@@ -130,7 +132,7 @@ input:focus {
 }
 
 .about img {
-  width: 10%;
+  width: 100px;
   margin: 10px;
 }
 
@@ -145,4 +147,41 @@ input:focus {
 
 .resume li {
   padding: 0 20px;
+}
+
+/* MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1900px) {
+  .tile {
+    width: 47%;
+  }  
+  
+  form {
+    width: 30%;
+  }  
+}
+
+@media screen and (max-width: 980px) {
+  form {
+    width: 50%;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .tile {
+    width: 100%;
+  }   
+
+  form {
+    width: 75%;
+  }  
+}
+
+@media screen and (max-width: 575px) {
+  .tile {
+    width: 100%;
+  }  
+  
+  form {
+    width: 100%;
+  }  
 }

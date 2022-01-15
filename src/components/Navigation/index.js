@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Navigation(props) {
     const navStyle = {
@@ -13,22 +13,26 @@ function Navigation(props) {
     return (
         <div style={navStyle}>
             <ul className="flex-row">
-                <li>
+                <li className={`${
+                currentContent === content[0] && 'navActive'}`}>
                     <a onClick={() => {
                   setCurrentContent(content[0]);
                 }}>About Me</a>
                 </li>
-                <li>
+                <li className={`${
+                currentContent === content[1] && 'navActive'}`}>
                     <a onClick={() => {
                   setCurrentContent(content[1]);
                 }}>Portfolio</a>
                 </li>
-                <li>
+                <li className={`${
+                currentContent === content[2] && 'navActive'}`}>
                     <a onClick={() => {
                   setCurrentContent(content[2]);
                 }}>Contact</a>
                 </li>
-                <li>
+                <li className={`${
+                currentContent === content[3] && 'navActive'}`}>
                     <a onClick={() => {
                   setCurrentContent(content[3]);
                 }}>Resume</a>
