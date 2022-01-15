@@ -3,7 +3,6 @@ import Navigation from '../Navigation';
 
 function Header(props) {
   const headerStyle = {
-    color: "white",
     backgroundColor: "#99C5B5",
     padding: "10px",
     display: "flex",
