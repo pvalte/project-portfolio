@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "//pvalte.github.io/project-portfolio/static/css/main.b0136381.css",
+    "main.js": "//pvalte.github.io/project-portfolio/static/js/main.8a3e9275.js",
+    "static/js/787.7ec160db.chunk.js": "//pvalte.github.io/project-portfolio/static/js/787.7ec160db.chunk.js",
+    "static/media/OkFidoPets.jpeg": "//pvalte.github.io/project-portfolio/static/media/OkFidoPets.f942ba78fb00c07f2db2.jpeg",
+    "static/media/Paige Altemare - Resume.pdf": "//pvalte.github.io/project-portfolio/static/media/Paige Altemare - Resume.938e530268541e19b295.pdf",
+    "static/media/sunny-weather.jfif": "//pvalte.github.io/project-portfolio/static/media/sunny-weather.ee522231d08326bce5d9.jfif",
+    "static/media/run-buddy.JPG": "//pvalte.github.io/project-portfolio/static/media/run-buddy.29a46605073c2befd9c1.JPG",
+    "static/media/melody-nomad.JPG": "//pvalte.github.io/project-portfolio/static/media/melody-nomad.9e7428738fe2143e2722.JPG",
+    "static/media/budget-minder.png": "//pvalte.github.io/project-portfolio/static/media/budget-minder.678403abcfec3db620ce.png",
+    "static/media/all-about-that-tech.JPG": "//pvalte.github.io/project-portfolio/static/media/all-about-that-tech.68ab8c92312af9186d63.JPG",
+    "static/media/avatar.JPG": "//pvalte.github.io/project-portfolio/static/media/avatar.899a0217d986c8baff9b.JPG",
+    "index.html": "//pvalte.github.io/project-portfolio/index.html",
+    "main.b0136381.css.map": "//pvalte.github.io/project-portfolio/static/css/main.b0136381.css.map",
+    "main.8a3e9275.js.map": "//pvalte.github.io/project-portfolio/static/js/main.8a3e9275.js.map",
+    "787.7ec160db.chunk.js.map": "//pvalte.github.io/project-portfolio/static/js/787.7ec160db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0136381.css",
+    "static/js/main.8a3e9275.js"
+  ]
+}
