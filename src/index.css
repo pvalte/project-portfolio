@@ -1,7 +1,8 @@
 :root {
-  --primary-color: rgb(56, 109, 126);
-  --secondary-color: rgb(43, 32, 161);
-  --tertiary-color: rgb(174, 235, 254);
+  --primary-color: #99c5b5;
+  --fourth-color: #899e8B;
+  --secondary-color: #706C61;
+  --tertiary-color: #afece7;
 }
 
 * {
@@ -17,7 +18,7 @@ body {
 }
 
 h1 {
-  color: var(--primary-color);
+  color: var(--fourth-color);
   font-weight: bold;
   padding: 10px;
 }
@@ -26,7 +27,6 @@ h1 {
 a {
   color: var(--tertiary);
   text-decoration: none;
-  font-weight: bold;
   padding: 10px;
 }
 
@@ -116,7 +116,10 @@ textarea {
 
 button {
   margin: 12px 0 0 0;
-  padding: 2px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
   background-color: var(--secondary-color);
   color: white;
 }
