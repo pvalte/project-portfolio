@@ -5,6 +5,12 @@ function Portfolio() {
 
   const [projectList] = useState([
     {
+      name: 'Vapor',
+      link: 'https://vapor-games-2022.herokuapp.com/',
+      image: require("../../assets/Vapor-games.JPG"),
+      description: 'MERN'
+    },
+    {
       name: 'Run Buddy',
       link: 'https://pvalte.github.io/RunBuddy/',
       image: require("../../assets/run-buddy.JPG"),
