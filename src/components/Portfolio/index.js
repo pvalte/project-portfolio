@@ -24,7 +24,7 @@ function Portfolio() {
     },
     {
       name: 'OkFido',
-      link: 'https://github.com/Benrowen5/ok-fido/',
+      link: 'https://ok-fido-fe05c29f1dfd.herokuapp.com/',
       image: require("../../assets/OkFidoPets.jpeg"),
       description: 'Node, Express, Handlebars, SQL'
     },
@@ -36,13 +36,13 @@ function Portfolio() {
     },
     {
       name: 'All About That Tech',
-      link: 'https://github.com/pvalte/All-About-That-Tech/',
+      link: 'https://morning-tor-75643.herokuapp.com/',
       image: require("../../assets/all-about-that-tech.JPG"),
       description: 'Express, Handlebars, MySQL, Sequalize'
     },
     {
       name: 'Sunny Weather Dashboard',
-      link: 'https://github.com/pvalte/Sunny-Weather-Dashboard',
+      link: 'https://pvalte.github.io/Sunny-Weather-Dashboard/',
       image: require("../../assets/sunny-weather.jfif"),
       description: 'APIs, Bootstrap, jQuery'
     }
